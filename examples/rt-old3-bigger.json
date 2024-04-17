@@ -1,0 +1,35 @@
+{
+    "tasks" : {
+	"T0" : {
+	    "loop"     : 1000,
+	    "run"      : 80000,
+	    "sleep"    : 20000,
+	    "policy"   : "SCHED_FIFO",
+	    "priority" : 10,
+	},
+	"T1" : {
+	    "loop"     : 1000,
+	    "run"      : 80000,
+	    "sleep"    : 20000,
+	    "policy"   : "SCHED_FIFO",
+	    "priority" : 10,
+	},
+	"T2" : {
+	    "loop"     : 1000,
+	    "run"      : 80000,
+	    "sleep"    : 20000,
+	    "policy"   : "SCHED_FIFO",
+	    "priority" : 10,
+	},
+    },
+    "global" : {
+	"duration"       : -1,
+	"default_policy" : "SCHED_FIFO",
+	"calibration"    : 300,
+	"pi_enabled"     : false,
+	"lock_pages"     : false,
+	"logdir"         : "/data",
+	"gnuplot"        : false,
+    }
+}
+

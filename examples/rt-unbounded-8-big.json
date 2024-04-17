@@ -1,0 +1,68 @@
+{
+    "tasks" : {
+	"T0" : {
+	    "loop"  : 1000,
+	    "run"   : 400000000,
+	    "sleep" : 100,
+	    "policy": "SCHED_FIFO",
+	},
+	"T1" : {
+	    "loop"  : 1000,
+	    "run"   : 400000000,
+	    "sleep" : 100,
+	    "policy": "SCHED_FIFO",
+	},
+	"T2" : {
+	    "loop"  : 1000,
+	    "run"   : 400000000,
+	    "sleep" : 100,
+	    "policy": "SCHED_FIFO",
+	},
+	"T3" : {
+	    "loop"  : 1000,
+	    "run"   : 400000000,
+	    "sleep" : 100,
+	    "policy": "SCHED_FIFO",
+	},
+	"T4" : {
+	    "loop"  : 1000,
+	    "run"   : 400000000,
+	    "sleep" : 100,
+	    "policy": "SCHED_FIFO",
+	},
+	"T5" : {
+	    "loop"  : 1000,
+	    "run"   : 400000000,
+	    "sleep" : 100,
+	    "policy": "SCHED_FIFO",
+	},
+	"T6" : {
+	    "loop"  : 1000,
+	    "run"   : 400000000,
+	    "sleep" : 100,
+	    "policy": "SCHED_FIFO",
+	},
+	"T7" : {
+	    "loop"  : 1000,
+	    "run"   : 400000000,
+	    "sleep" : 100,
+	    "policy": "SCHED_FIFO",
+	},
+	"T8" : {
+	    "loop"  : 1000,
+	    "run"   : 400000000,
+	    "sleep" : 100,
+	    "policy": "SCHED_FIFO",
+	},
+    },
+    "global" : {
+	"duration"       : -1,
+	"default_policy" : "SCHED_OTHER",
+	"calibration"    : 300,
+	"pi_enabled"     : false,
+	"lock_pages"     : false,
+	"logdir"         : "/data",
+	"gnuplot"        : false,
+    }
+}
+

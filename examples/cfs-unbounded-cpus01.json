@@ -1,0 +1,29 @@
+{
+    "tasks" : {
+	"T0-rt" : {
+	    "cpus"  : [0,1],
+	    "loop"  : 1000000,
+	    "run"   : 4000000,
+	    "sleep" : 0,
+	    "policy": "SCHED_FIFO",
+	},
+	"T1-rt" : {
+	    "cpus"  : [0,1],
+	    "loop"  : 1000000,
+	    "run"   : 4000000,
+	    "sleep" : 0,
+	    "policy": "SCHED_FIFO",
+	},
+    },
+    "global" : {
+	"duration"       : -1,
+	"default_policy" : "SCHED_OTHER",
+	"calibration"    : 300,
+	"pi_enabled"     : false,
+	"lock_pages"     : false,
+	"ftrace"         : false,
+	"logdir"         : "/tmp",
+	"gnuplot"        : false,
+    }
+}
+
