@@ -1,0 +1,8 @@
+[submodule "json-c"]
+	path = json-c
+	url = https://github.com/sdickey2024/json-c
+	branch = develop
+[submodule "rt-app"]
+	path = rt-app
+	url = https://github.com/sdickey2024/rt-app
+	branch = develop
