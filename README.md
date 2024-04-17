@@ -3,7 +3,7 @@ Parent Repository for syncing and performing the build for rt-app.
 
 # To clone this repository
 git clone git@github.com:sdickey2024/rt-app-build.git
-git submodule update --init --recursive
+cd rt-app-build && git submodule update --init --recursive
 
 # build requirements
 sudo apt-get install gcc-arm-linux-gnueabi
